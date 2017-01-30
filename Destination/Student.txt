@@ -1,0 +1,54 @@
+public class Student { 
+    private int id;
+    private String firstName,lastName,email,contactNo;
+    private boolean status;
+
+public void setid(int d ) { 
+      this.id = d ; 
+} 
+
+public int getid() { 
+       return this.id; 
+} 
+
+public void setfirstName(String d ) { 
+      this.firstName = d ; 
+} 
+
+public String getfirstName() { 
+       return this.firstName; 
+} 
+
+public void setlastName(String d ) { 
+      this.lastName = d ; 
+} 
+
+public String getlastName() { 
+       return this.lastName; 
+} 
+
+public void setemail(String d ) { 
+      this.email = d ; 
+} 
+
+public String getemail() { 
+       return this.email; 
+} 
+
+public void setcontactNo(String d ) { 
+      this.contactNo = d ; 
+} 
+
+public String getcontactNo() { 
+       return this.contactNo; 
+} 
+
+public void setstatus(boolean d ) { 
+      this.status = d ; 
+} 
+
+public boolean getstatus() { 
+       return this.status; 
+} 
+
+ }

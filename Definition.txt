@@ -1,0 +1,5 @@
+Employee;id:int%firstName,lastName,email,contactNo:String%status:boolean
+Product;id:int%name:String
+Student;id:int%firstName,lastName,email,contactNo:String%status:boolean
+Course;id:int%name:String
+Payment;name:String%id,amount:int

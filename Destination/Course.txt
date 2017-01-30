@@ -1,0 +1,21 @@
+public class Course { 
+    private int id;
+    private String name;
+
+public void setid(int d ) { 
+      this.id = d ; 
+} 
+
+public int getid() { 
+       return this.id; 
+} 
+
+public void setname(String d ) { 
+      this.name = d ; 
+} 
+
+public String getname() { 
+       return this.name; 
+} 
+
+ }

@@ -1,0 +1,29 @@
+public class Payment { 
+    private String name;
+    private int id,amount;
+
+public void setname(String d ) { 
+      this.name = d ; 
+} 
+
+public String getname() { 
+       return this.name; 
+} 
+
+public void setid(int d ) { 
+      this.id = d ; 
+} 
+
+public int getid() { 
+       return this.id; 
+} 
+
+public void setamount(int d ) { 
+      this.amount = d ; 
+} 
+
+public int getamount() { 
+       return this.amount; 
+} 
+
+ }
